@@ -78,3 +78,4 @@ NA_compl_matrix  <- function(data, trans_flag=1, wind=5){
   }
   return(transf_data=transf_data)  
 }
+#test github
