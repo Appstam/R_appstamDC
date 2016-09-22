@@ -2,6 +2,7 @@
 ######### STP all hidden files except .gitignore    etc
 .*
 !.gitignore
+!.Rbuildignore
 
 ######### old
 # Windows image file caches
