@@ -1,11 +1,11 @@
 Package: appstamDC
 Type: Package
-Title: Collection of Functions Data Checks
+Title: Collection of Functions for Data Checks
 Version: 1.0
-Date: 2016-09-21
-Author: Sorin T. Pascu
-Maintainer: Sorin T. Pascu <sorin.pascu@appstam.com>
-Description: Collection of Functions Data Checks
+Date: 2016-09-26
+Author: Appstam Consulting GmbH
+Maintainer: Appstam Consulting GmbH <software@appstam.com>
+Description: Collection of Functions for Data Checks
 License: GNU GPL 3
 Imports:
 RoxygenNote: 5.0.1
