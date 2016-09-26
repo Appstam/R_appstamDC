@@ -1,4 +1,10 @@
-summary.filter <- function(x) {
+# summary.filter
+#' summary.filter
+#' 
+#' summary.filter
+#' 
+#' @details Function for .spar file
+summary.filter <- function(x) { 
   cat("\n","-------------------------","\n","-------------------------","\n","\n","Overview Missing values:", "\n","\n")
   prmatrix(x$overview)
   cat("\n","Description:", "\n", "0 denotes that a value is missing. 1 denotes that a value is available.","\n",
@@ -9,6 +15,12 @@ summary.filter <- function(x) {
   cat("\n","-------------------------","\n","-------------------------")
 }
 
+# summary.nomiss
+#' summary.nomiss
+#' 
+#' summary.nomiss
+#' 
+#' @details Function for .spar file
 summary.nomiss <- function(x) {
   cat("\n","The data set does not contain any missing values.")
 }
